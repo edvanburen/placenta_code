@@ -309,7 +309,6 @@ dev.off()
 
 
 # Manually select genes to make sure Prap1 is not added
-#seems that it just takes the top 3
 genes_manual<-find_all_markers%>%arrange(desc(avg_log2FC))%>%
   group_by(cluster)%>%filter(!gene=="Prap1")%>%filter(row_number()<=3)%>%arrange(cluster)%>%pull(gene)
 genes_manual_tropho<-find_all_markers%>%filter(cluster%in%tropho_cts)%>%
