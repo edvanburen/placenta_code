@@ -1,4 +1,4 @@
-# "Single-Cell RNA-Sequencing Reveals Placental Response under Environmental Stress" by Van Buren et al
+# Code for Single-Cell RNA-Sequencing Reveals Placental Response under Environmental Stress by Van Buren et al
 
 ## Contact Emails
 
