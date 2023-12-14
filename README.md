@@ -14,5 +14,5 @@ This file contains the R code needed to create the final data object used in all
 
 # manuscript_plots_to_submit.R
 
-This file contains the code needed to produce all figures and results which rely on single-cell RNA-sequencing data used in the manuscript. 
+This file contains the code needed to produce all figures and results which rely on single-cell RNA-sequencing data used in the manuscript. Before running, users should download the <code>final_Seurat_object.RData</code> object from Zenodo and install required R packages.
 
