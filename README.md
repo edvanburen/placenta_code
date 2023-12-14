@@ -10,7 +10,7 @@ This repository contains the code needed to reproduce analysis and results from 
 
 # read_data_to_submit.R
 
-This file contains the R code needed to create the final data object used in all analyses and figures, including the preprocessing and data integration steps used. The final object is provided in the <code>final_Seurat_object.RData</code> object on Zenodo, so users not need to run this code themselves.
+This file contains the R code needed to create the final data object used in all analyses and figures, including the preprocessing and data integration steps used. The final object is provided in the <code>final_Seurat_object.RData</code> object on Zenodo, so users do not need to run this code themselves if their goal is simply to analyze the data used in the manuscript.
 
 # manuscript_plots_to_submit.R
 
